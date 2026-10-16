@@ -7,8 +7,8 @@ def classify(value):
         return "Above range"
 
 def calculate_average(total, count):
-    average_snapshot = total / count
-    average_result = average_snapshot
+    average = total / count
+    average_result = average
     return average_result
 
 num_jars = int(input("Enter the number of jars: "))
